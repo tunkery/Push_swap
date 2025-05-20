@@ -6,6 +6,12 @@ A sorting algorithm project that requires you to sort a stack of integers using 
 
 The goal is to sort a list of integers using two stacks (`a` and `b`) and a restricted set of operations:
 
+You have 2 stacks named a and b.
+- At the beginning:
+- The stack a contains a random number of unique negative and/or positive
+integers.
+- The stack b is empty.
+
 - `sa`, `sb`, `ss` — swap the top elements
 - `pa`, `pb` — push between stacks
 - `ra`, `rb`, `rr` — rotate upwards
